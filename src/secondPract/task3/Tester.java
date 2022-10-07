@@ -51,9 +51,7 @@ class Circle{
         this.r=r;
     }
 
-    Circle(
-
-    ){}
+    Circle(){}
 
 
 
@@ -76,8 +74,6 @@ class Circle{
 public class Tester {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
-        Point pt = new Point();
-        Circle cir = new Circle();
         Circle p[]=new Circle[3];
         for(int i=0;i<3;i++) {
             double x = in.nextDouble();
