@@ -1,4 +1,4 @@
-package thirdPract.task1;
+package pract_4;
 import java.util.Scanner;
 
 enum Season{
