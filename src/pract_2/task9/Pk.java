@@ -1,4 +1,4 @@
-package pract_2.taskPoker;
+package pract_2.task9;
 
 import java.util.Scanner;
 

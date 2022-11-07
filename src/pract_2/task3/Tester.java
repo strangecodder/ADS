@@ -29,8 +29,6 @@ class Point{
         this.y=y;
     }
 
-
-
     public void setY(double y) {
         this.y = y;
     }
@@ -53,8 +51,6 @@ class Circle{
 
     Circle(){}
 
-
-
     public Point getA(){
         return a;
     }
@@ -62,8 +58,6 @@ class Circle{
     public void setA(Point a){
         this.a=a;
     }
-
-
 
     public String toString(){
         return  a+"\n"+
