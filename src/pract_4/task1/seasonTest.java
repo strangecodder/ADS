@@ -28,13 +28,35 @@ public class seasonTest {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
 
-        Season lovely = Season.Autumn;
-        enTell(lovely);
+        Season season1 = Season.Summer;
+        Season season2 = null;
 
-        for(int i =0;i<4;i++){
-
+        boolean f = true;
+        while(f){
+            String choice = in.nextLine();
+            switch (choice){
+                case (Season.titleAutumn):
+                    season2=Season.Autumn;
+                    f = false;
+                    break;
+                case (Season.titleWinter):
+                    season2=Season.Winter;
+                    f=false;
+                    break;
+                case (Season.titleSpring):
+                    season2=Season.Spring;
+                    f=false;
+                    break;
+                case (Season.titleSummer):
+                    season2=Season.Summer;
+                    f=false;
+                    break;
+            }
         }
-        //System.out.println(lovely);
 
+        System.out.println(season1);
+        System.out.println(season2);
+        season1.getDescription();
+        season2.getDescription();
     }
 }

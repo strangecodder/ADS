@@ -8,6 +8,15 @@ public class Reader {
     private String phoneNumber;
     private String[] booksName;
 
+
+    Reader(String fullName, int readerTicket, String faculty, String birthdayDate, String phoneNumber)
+    {
+        this.fullName = fullName;
+        this.readerTicket = readerTicket;
+        this.faculty = faculty;
+        this.birthdayDate = birthdayDate;
+        this.phoneNumber = phoneNumber;
+    }
     public void takeBook(int number)
     {
         System.out.println(fullName + " взял " + number + " книг.");

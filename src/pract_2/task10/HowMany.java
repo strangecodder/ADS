@@ -15,7 +15,11 @@ public class HowMany {
                 localeSum++;
             }
         }
-        this.wordSum=localeSum;
+        setWordSum(localeSum);
+    }
+
+    public void setWordSum(int wordSum) {
+        this.wordSum = wordSum;
     }
 
     public int getWordSum() {
